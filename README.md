@@ -1,18 +1,22 @@
-# 7喵仓库 🐱📦
+# 7喵仓库 · 7Miao Warehouse 🐱📦
 
 一个轻量、美观的个人作品集展示网站。支持拖拽排序、嵌入第三方网站、自定义主题色等特性。
 
+**7Miao Warehouse** is a lightweight, good-looking personal portfolio showcase: card-based works, drag-to-reorder, one-click pin, embeddable third-party widgets, theme colors, and a white-label admin panel so you can rebrand it as your own the moment you open-source it. Built on Next.js 16 + React 19 + Tailwind CSS 4 + Supabase.
+
 > 作品，即答案。
+
+<img src="https://raw.githubusercontent.com/x2it/ouput/main/banner.png" alt="7喵仓库 · 7Miao Warehouse" width="100%">
 
 ## ✨ 功能特性
 
-- 🖼️ **作品集展示**：卡片式布局展示个人项目作品
-- 🔀 **拖拽排序**：登录后拖拽卡片即可调整作品顺序
-- 📌 **置顶功能**：一键置顶重点作品
-- 🧩 **嵌入支持**：`/embed` 页面可嵌入任意第三方网站（响应式 + 自动高度）
-- 🎨 **主题定制**：支持多种卡片配色主题（colorful / blue / green / dark 等）
-- ⚙️ **后台个性化（白标）**：登录后台可配置站点名称、Slogan、SEO 标题/描述、页脚版权信息，开源后一键改成自己的品牌
-- 🔒 **安全认证**：HMAC 签名 token、写操作鉴权、CORS 白名单、安全响应头
+- 🖼️ **作品集展示 / Portfolio**：卡片式布局展示个人项目作品 · Card-based layout for your projects
+- 🔀 **拖拽排序 / Drag sort**：登录后拖拽卡片即可调整作品顺序 · Drag cards after login to reorder works
+- 📌 **置顶功能 / Pin**：一键置顶重点作品 · Pin key works to the top
+- 🧩 **嵌入支持 / Embed**：`/embed` 页面可嵌入任意第三方网站（响应式 + 自动高度） · Embed any third-party site via `/embed` (responsive + auto height)
+- 🎨 **主题定制 / Themes**：支持多种卡片配色主题（colorful / blue / green / dark 等）· Multiple card color themes
+- ⚙️ **后台个性化（白标）/ White-label**：登录后台可配置站点名称、Slogan、SEO 标题/描述、页脚版权信息，开源后一键改成自己的品牌 · Brand the whole site (name, slogan, SEO, footer) from the admin panel
+- 🔒 **安全认证 / Security**：HMAC 签名 token、写操作鉴权、CORS 白名单、安全响应头 · HMAC-signed tokens, write-auth, CORS allowlist, security headers
 
 ## 🛠 技术栈
 
@@ -214,3 +218,7 @@ src/
 ## 📝 变更日志
 
 版本变更记录见 [CHANGELOG.md](CHANGELOG.md)。
+
+---
+
+[MIT](LICENSE) © 2026 知行工作室 Zhixing Studio · [https://w3b.pub/](https://w3b.pub/) · support@w3b.pub
