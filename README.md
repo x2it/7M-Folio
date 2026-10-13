@@ -8,6 +8,8 @@
 
 <img src="https://raw.githubusercontent.com/x2it/ouput/main/banner.png" alt="7喵仓库 · 7Miao Warehouse" width="100%">
 
+> **当前版本 / Current version：1.2.0**（源自 [`package.json`](package.json) · 见 [CHANGELOG.md](CHANGELOG.md)）
+
 ## ✨ 功能特性
 
 - 🖼️ **作品集展示 / Portfolio**：卡片式布局展示个人项目作品 · Card-based layout for your projects
