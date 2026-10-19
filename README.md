@@ -135,14 +135,14 @@ CMD ["pnpm", "start"]
 ```
 
 ```bash
-docker build -t 7miao-warehouse .
+docker build -t 7m-folio .
 docker run -d -p 5000:5000 \
   -e ADMIN_PASSWORD=xxx \
   -e AUTH_SECRET=xxx \
   -e SUPABASE_URL=xxx \
   -e SUPABASE_ANON_KEY=xxx \
   -e SUPABASE_SERVICE_ROLE_KEY=xxx \
-  --name 7miao 7miao-warehouse
+  --name 7m-folio 7m-folio
 ```
 
 ## 🔧 常用命令
