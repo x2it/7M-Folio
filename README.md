@@ -1,5 +1,7 @@
 # 7喵仓库 · 7M-Folio
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 一个轻量、美观的个人作品集展示网站。支持拖拽排序、嵌入第三方网站、自定义主题色等特性。
 
 **7M-Folio** is a lightweight, good-looking personal portfolio showcase: card-based works, drag-to-reorder, one-click pin, embeddable third-party widgets, theme colors, and a white-label admin panel so you can rebrand it as your own the moment you open-source it. Built on Next.js 16 + React 19 + Tailwind CSS 4 + Supabase.
@@ -10,17 +12,17 @@
 
 > **当前版本 / Current version：1.2.0**（源自 [`package.json`](package.json) · 见 [CHANGELOG.md](CHANGELOG.md)）
 
-## ✨ 功能特性
+## 功能特性
 
-- 🖼️ **作品集展示 / Portfolio**：卡片式布局展示个人项目作品 · Card-based layout for your projects
-- 🔀 **拖拽排序 / Drag sort**：登录后拖拽卡片即可调整作品顺序 · Drag cards after login to reorder works
-- 📌 **置顶功能 / Pin**：一键置顶重点作品 · Pin key works to the top
-- 🧩 **嵌入支持 / Embed**：`/embed` 页面可嵌入任意第三方网站（响应式 + 自动高度） · Embed any third-party site via `/embed` (responsive + auto height)
-- 🎨 **主题定制 / Themes**：支持多种卡片配色主题（colorful / blue / green / dark 等）· Multiple card color themes
-- ⚙️ **后台个性化（白标）/ White-label**：登录后台可配置站点名称、Slogan、SEO 标题/描述、页脚版权信息，开源后一键改成自己的品牌 · Brand the whole site (name, slogan, SEO, footer) from the admin panel
-- 🔒 **安全认证 / Security**：HMAC 签名 token、写操作鉴权、CORS 白名单、安全响应头 · HMAC-signed tokens, write-auth, CORS allowlist, security headers
+- **作品集展示 / Portfolio**：卡片式布局展示个人项目作品 · Card-based layout for your projects
+- **拖拽排序 / Drag sort**：登录后拖拽卡片即可调整作品顺序 · Drag cards after login to reorder works
+- **置顶功能 / Pin**：一键置顶重点作品 · Pin key works to the top
+- **嵌入支持 / Embed**：`/embed` 页面可嵌入任意第三方网站（响应式 + 自动高度） · Embed any third-party site via `/embed` (responsive + auto height)
+- **主题定制 / Themes**：支持多种卡片配色主题（colorful / blue / green / dark 等）· Multiple card color themes
+- **后台个性化（白标）/ White-label**：登录后台可配置站点名称、Slogan、SEO 标题/描述、页脚版权信息，开源后一键改成自己的品牌 · Brand the whole site (name, slogan, SEO, footer) from the admin panel
+- **安全认证 / Security**：HMAC 签名 token、写操作鉴权、CORS 白名单、安全响应头 · HMAC-signed tokens, write-auth, CORS allowlist, security headers
 
-## 🛠 技术栈
+## 技术栈
 
 | 类别 | 技术 |
 |------|------|
@@ -30,7 +32,7 @@
 | 数据库 | [Supabase](https://supabase.com) (PostgreSQL) |
 | 包管理 | [pnpm](https://pnpm.io) |
 
-## 🚀 本地开发
+## 本地开发
 
 ### 环境要求
 
@@ -94,7 +96,7 @@ pnpm dev
 
 打开 [http://localhost:5000](http://localhost:5000) 访问网站，[http://localhost:5000/login](http://localhost:5000/login) 进入管理后台。
 
-## 🌍 生产部署
+## 生产部署
 
 ### 方式一：Vercel（推荐，免费）
 
@@ -145,7 +147,7 @@ docker run -d -p 5000:5000 \
   --name 7m-folio 7m-folio
 ```
 
-## 🔧 常用命令
+## 常用命令
 
 | 命令 | 说明 |
 |------|------|
@@ -155,7 +157,7 @@ docker run -d -p 5000:5000 \
 | `pnpm ts-check` | TypeScript 类型检查 |
 | `pnpm lint` | ESLint 代码检查 |
 
-## 🧩 嵌入第三方网站
+## 嵌入第三方网站
 
 嵌入页地址：`/embed`，支持 URL 参数定制：
 
@@ -179,9 +181,9 @@ docker run -d -p 5000:5000 \
 ></iframe>
 ```
 
-> 💡 嵌入页内置 `ResizeObserver` + `postMessage` 自动高度同步，无需手动设置 iframe 高度。
+> 嵌入页内置 `ResizeObserver` + `postMessage` 自动高度同步，无需手动设置 iframe 高度。
 
-## 📁 项目结构
+## 项目结构
 
 ```
 src/
@@ -201,7 +203,7 @@ src/
 └── ...
 ```
 
-## 📄 环境变量一览
+## 环境变量一览
 
 | 变量 | 必填 | 说明 |
 |------|------|------|
@@ -213,11 +215,11 @@ src/
 | `PROJECT_DOMAIN_DEFAULT` | ❌ | 公网域名（cookie 域） |
 | `DEPLOY_RUN_PORT` | ❌ | 服务端口（默认 5000） |
 
-## 📜 开源许可
+## 开源许可
 
 本项目基于 MIT 许可证开源，欢迎大家使用、改进、分享。
 
-## 📝 变更日志
+## 变更日志
 
 版本变更记录见 [CHANGELOG.md](CHANGELOG.md)。
 
