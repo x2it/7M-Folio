@@ -1,12 +1,12 @@
-# 7喵仓库 · 7Miao Warehouse 🐱📦
+# 7喵仓库 · 7M-Folio
 
 一个轻量、美观的个人作品集展示网站。支持拖拽排序、嵌入第三方网站、自定义主题色等特性。
 
-**7Miao Warehouse** is a lightweight, good-looking personal portfolio showcase: card-based works, drag-to-reorder, one-click pin, embeddable third-party widgets, theme colors, and a white-label admin panel so you can rebrand it as your own the moment you open-source it. Built on Next.js 16 + React 19 + Tailwind CSS 4 + Supabase.
+**7M-Folio** is a lightweight, good-looking personal portfolio showcase: card-based works, drag-to-reorder, one-click pin, embeddable third-party widgets, theme colors, and a white-label admin panel so you can rebrand it as your own the moment you open-source it. Built on Next.js 16 + React 19 + Tailwind CSS 4 + Supabase.
 
 > 作品，即答案。
 
-<img src="https://raw.githubusercontent.com/x2it/7M-Folio/main/banner.png" alt="7喵仓库 · 7Miao Warehouse" width="100%">
+<img src="https://raw.githubusercontent.com/x2it/7M-Folio/main/banner.png" alt="7喵仓库 · 7M-Folio" width="100%">
 
 > **当前版本 / Current version：1.2.0**（源自 [`package.json`](package.json) · 见 [CHANGELOG.md](CHANGELOG.md)）
 
