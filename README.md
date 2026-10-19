@@ -196,8 +196,8 @@ src/
 │   │   └── init-config/     # 初始化配置（需登录）
 │   ├── embed/               # 嵌入页（第三方网站用）
 │   ├── login/               # 登录页
-│   ├── page.tsx             # 主页（SSR 预取数据）
-│   └── proxy.ts             # 代理中间件（CORS + 安全头）
+│   └── page.tsx             # 主页（SSR 预取数据）
+├── proxy.ts                 # 代理中间件（CORS 白名单 + 安全头）
 ├── components/ui/           # shadcn/ui 组件
 ├── storage/database/        # Supabase 数据库操作
 └── ...
